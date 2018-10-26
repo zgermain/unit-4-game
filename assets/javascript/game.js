@@ -24,10 +24,13 @@ function setComputerScore (){
 function startGame() {
 
     setComputerScore();
+    $("#computer-score-div").html(computerScore);
+
     crystal1 = setCrystalValue();
     crystal2 = setCrystalValue();
     crystal3 = setCrystalValue();
     crystal4 = setCrystalValue();
+    userScore = 0;
 
     console.log("crystal1: " + crystal1)
     console.log("crystal2: " + crystal2)
@@ -40,11 +43,23 @@ function displayScore(){
 };
 
 function checkWin(){
-
+    if (userScore === computerScore){
+        gameOver = true;
+        wins++;
+        $("#wins-text").html("Wins: "+wins);
+        $("#win-lose-message").html("You Win!");
+        startGame();
+    }
 };
 
 function checkLose(){
-
+    if (userScore > computerScore){
+        gameOver = true;
+        losses++;
+        $("#losses-text").html("Losses: "+losses);
+        $("#win-lose-message").html("You Lose!");
+        startGame();
+    }
 };
 
 startGame();
