@@ -21,34 +21,35 @@
         <p>Each time when the game starts, the game will change the values of each crystal</p>
     </div>
 
-    <div>
+    <div id = "computer-score-div">
         39
     </div>
 
     <div>
-        <p>Wins: 0</p>
-        <p>Losses: 0</p>
+        <p id = "wins-text">Wins: 0</p>
+        <p id = "losses-text">Losses: 0</p>
     </div>
     <div>
-        <input type="image" src="assets/images/red.png">
+        <input type="image" src="assets/images/red.png" id="crystal1">
     </div>
     <div>
-        <input type="image" src="assets/images/white.png">
+        <input type="image" src="assets/images/white.png" id="crystal2">
     </div>
     <div>
-        <input type="image" src="assets/images/blue.png">
+        <input type="image" src="assets/images/blue.png" id="crystal3">
     </div>
     <div>
-        <input type="image" src="assets/images/green.png">
+        <input type="image" src="assets/images/green.png" id="crystal4">
     </div>
     <div>
         <p>Your total score is:</p>
     </div>
-    <div>
+    <div id = "user-score-div">
         0
     </div>
 
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
     <script src="assets/javascript/game.js"></script>
 </body>
 </html>
