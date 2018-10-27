@@ -1,5 +1,6 @@
 //Crystal Game!!!!!!!!!!!!111!
 
+//Global Variables
 var computerScore = 0;
 var userScore = 0;
 var wins = 0;
@@ -25,6 +26,7 @@ function startGame() {
 
     setComputerScore();
     $("#computer-score-div").html(computerScore);
+    
 
     crystal1 = setCrystalValue();
     crystal2 = setCrystalValue();

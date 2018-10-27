@@ -1,5 +1,73 @@
+body{
+    background-image: url(/unit-4-game/assets/images/OldTV.jfif);
+    background-repeat: no-repeat;
+    background-size: 1020px;    
+}
 
+
+div{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.col{
+    border: 2px solid black;
+}
+.container{
+    margin: 60px 0px 0px 144px;
+    max-width: 700px;
+    padding: 10px;    
+}
+
+.clearfix{
+    clear:both;
+}
+
+.float-left{
+    float: left;
+}
+
+#instructions{
+    font-size: 15px;
+    color:lightblue;
+    background-color:gray;
+    padding: 5px;
+}
+
+#win-lose-div{
+    height: 60px;
+}
 
 #crystal1, #crystal2, #crystal3, #crystal4 {
     float:left;
 }
+
+#computer-score-div, #user-score-div {
+    font-size: 40px;
+}
+
+#win-lose-message{
+    font-size: 20px;
+    color: aquamarine;
+}
+
+#buttons-div{
+    width: 78%;
+    margin: auto;
+    height: 160px;
+}
+
+/* #tv{
+    position: relative;
+    z-index: 1;
+} */
+
+
