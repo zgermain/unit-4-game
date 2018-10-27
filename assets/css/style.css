@@ -38,12 +38,17 @@ h1{
 #instructions{
     font-size: 15px;
     color:lightblue;
-    background-color:gray;
+    background-color:rgb(78, 78, 78);
     padding: 5px;
+    border: solid white 3px;
 }
 
 #win-lose-div{
-    height: 60px;
+    height: 70px;
+    width: 180px;
+    padding:5px;
+    background-color: rgb(78, 78, 78);
+    border: solid white 3px;
 }
 
 #crystal1, #crystal2, #crystal3, #crystal4 {
