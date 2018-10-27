@@ -1,5 +1,9 @@
 //Crystal Game!!!!!!!!!!!!111!
 
+// myAudio = new Audio("ZMGchiptune.wav");
+// myAudio.loop = true;
+// myAudio.play();
+
 //Global Variables
 var computerScore = 0;
 var userScore = 0;
